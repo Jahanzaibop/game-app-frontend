@@ -40,7 +40,7 @@ const Gamedetail = () => {
             
               <p className='font-bold mb-[10px] md:mb-0'>
               <strong className='block mb-[10px]'>Price</strong>
-              <img className='width-[25px]' src="/flag.png" alt=''/>
+              <img className='w-[25px] float-left mr-[10px]' src="/flag.png" alt=''/>
                 <span>{game.price} RS</span> 
               </p>
               
