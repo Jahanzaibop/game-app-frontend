@@ -55,8 +55,11 @@ const Editgames = () => {
 
   const handleClick = async () => {
     try {
+
+      const API_URL = process.env.REACT_APP_API_URL;
+
       const response = await axios.put(
-        `http://localhost:8000/api/v1/games/update-game/${id}`,
+        `${API_URL}/api/v1/games/update-game/${id}`,
         input,
         {
           headers: {

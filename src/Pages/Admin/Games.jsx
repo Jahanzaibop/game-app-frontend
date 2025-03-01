@@ -16,7 +16,9 @@ const Games = () => {
 
   try{
    
-     await axios.delete(`http://localhost:8000/api/v1/games/delete-game/${id}` ,   {
+    const API_URL = process.env.REACT_APP_API_URL;
+
+     await axios.delete(`${API_URL}/api/v1/games/delete-game/${id}` ,   {
       headers: {
         "Content-Type": "application/json",
       },

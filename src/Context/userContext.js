@@ -9,8 +9,12 @@ export default function  UserState ({children}) {
 
     const login = async (user) => {
         try {
+
+            const API_URL = process.env.REACT_APP_API_URL;
+
+
             const response = await axios.post(
-                'http://localhost:8000/api/v1/gameusers/auth',
+                `${API_URL}/api/v1/gameusers/auth`,
                 user,
                 { withCredentials: true }
             );
