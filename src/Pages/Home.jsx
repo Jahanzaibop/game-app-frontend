@@ -16,7 +16,7 @@ const {games} = useContext(GameContext);
  
   return (
     <div>
-      <Banner  heading={'Unleash the Magic of Gaming – Your Gateway to Games, Anytime, Anywhere!'} image={'/banner.jpg'} description={'Welcome to Games.io – your hub for digital gaming! Enjoy instant access to a vast collection of digital games — no discs, no delays. Buy, download, and start playing in seconds!'}/>
+      <Banner  heading={'Unleash the Magic of Gaming – Your Gateway to Games, Anytime, Anywhere!'} image={'/banner.jpg'} description={'Welcome to GameHub – your hub for digital gaming! Enjoy instant access to a vast collection of digital games — no discs, no delays. Buy, download, and start playing in seconds!'}/>
       
       
 

@@ -42,7 +42,7 @@ const Header = () => {
       <div className="container mx-auto">
         <div className="lg:grid lg:grid-cols-3">
           <h1 className="float-left lg:float-none font-mono text-2xl font-extrabold text-white">
-            <Link to="/">Games.io</Link>
+            <Link to="/">GameHub</Link>
           </h1>
           
          

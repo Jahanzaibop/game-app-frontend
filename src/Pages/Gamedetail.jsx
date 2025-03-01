@@ -40,8 +40,8 @@ const Gamedetail = () => {
             
               <p className='font-bold mb-[10px] md:mb-0'>
               <strong className='block mb-[10px]'>Price</strong>
-              <img src="/flag.png" alt=''/>
-                <FontAwesomeIcon icon={faMoneyBillWave} className="mr-[5px]" /> {game.price} RS
+              <img className='width-[25px]' src="/flag.png" alt=''/>
+                <span>{game.price} RS</span> 
               </p>
               
               <p className='font-bold mb-[10px] md:mb-0'>

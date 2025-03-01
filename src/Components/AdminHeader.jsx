@@ -2,7 +2,7 @@ import React, { useContext, useRef, useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { UserContext } from '../Context/userContext';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUserCircle, faArrowRightFromBracket, faBars , faUser  } from '@fortawesome/free-solid-svg-icons';
+import { faUserCircle, faArrowRightFromBracket, faBars  } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -54,7 +54,7 @@ const AdminHeader = () => {
   return (
     <div className="text-white h-auto lg:h-[100%] w-full lg:w-[256px] p-[15px] static float-left lg:float-none lg:fixed bg-[#191919]">
       <h1 className="float-left font-mono text-2xl font-extrabold text-white">
-        <Link to="/admin/dashboard">Movies.io</Link>
+        <Link to="/admin/dashboard">GameHub</Link>
       </h1>
       
       <FontAwesomeIcon className='block lg:hidden float-right mt-[10px]' icon={faBars} onClick={handleMenu}/>
