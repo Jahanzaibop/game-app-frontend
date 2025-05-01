@@ -34,7 +34,7 @@ export default function  UserState ({children}) {
 
     const logOut = async () => {
         try {
-            await axios.post("http://localhost:8000/api/v1/users/logout", {}, { withCredentials: true });
+            await axios.post(`${API_URL}/api/v1/users/logout`, {}, { withCredentials: true });
             setCurrentUser(null);
             console.log("Logged out successfully");
         } catch (error) {
